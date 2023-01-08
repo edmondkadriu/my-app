@@ -59,7 +59,7 @@ body{
 @font-face { font-family: BloodScript; src: url('RocketFuel-dxqx.ttf'); } 
 .titulli{
   color: whitesmoke;
-  animation: ani 1s;
+  animation: ani 2s;
   text-align: center;
   font-family: BloodScript;
 }
