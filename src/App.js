@@ -17,12 +17,16 @@ export function App() {
 
   return (
     <div className="App">
-      <h1>Launches</h1>
+      <div className="main"></div>
+      <h1 className="titulli">SPACEX LAUNCHES</h1>
+      <br></br>
+      <br></br>
       <div className="popular-launches">
       {popular.map((launch) => {
           return <Launch key={launch.mission_name} launch={launch} />;
         })}
       </div>
+      
     </div>
   );
 }
