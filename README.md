@@ -8,5 +8,5 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Then on your Editor Terminal you must run:
+Then on your Editor Terminal or a new cmd you must run:
 ### `npx json-server --watch database/db.json --port 8000`
